@@ -4,8 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install -g json-server`
+
+For creating static API we have a package: json-server. Install json-server as a global package.
+
+### `json-server --watch db2.json --port 6700`
+
+Run the json-server with db.json file and provide a port number. By this you will be creating an API.
+json-server --watch <Json-File-Name> --port <number>
+
 ### `npm start`
 
+Open another Terminal in the project directory
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
